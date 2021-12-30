@@ -73,3 +73,11 @@ body{
     text-decoration:none;
     margin: 5px;
 }
+
+.links{
+    text-align: left;
+    width: 50px;
+    border-radius: 100px;
+    border:solid 3px rgb(30, 114, 163);
+
+}
