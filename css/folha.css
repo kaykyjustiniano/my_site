@@ -1,54 +1,37 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+*{
     margin: 0;
-    background-color: rgb(245, 245, 245);
+    padding-top: 0;
 }
-*\ BARRA DE NAVEGACAO*/
-    .fo{
-        background-color: rgb(30, 114, 163);
-        text-align: right;
-    }
-
-    .menuu{
-        list-style:none;
-        margin: 0px;
-        text-align: right;
-        border: 1px solid black;
-        width: auto; 
-        height: 100px;
-
-    }
-
-    .menuu li{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        display: inline-block;
-        float: right;
-
-    }
-
-    .menuu li a{
-
-        text-decoration: none;
-        padding: 2px;
-        font-size: 20px;
-       
-        
-    }
-
-    .menuu li a:hover{
-
-        
-        background:rgb(30, 114, 163);
-        color:rgb(255, 255, 255);
-        -moz-box-shadow:0 1px 2px 0 rgb(255, 255, 255);
-       
-
-    }
 
 
-.links{
-    text-align: left;
-    width: 50px;
-    border-radius: 100px;
-    border:solid 3px rgb(30, 114, 163);
+body{
+    background-color: rgb(170, 199, 223);
+}
 
+#menuu{
+    
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 60px;
+    text-align: right;
+}
+
+#menuu li{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 4px;
+    margin: 15px;
+    
+}
+
+#menuu li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menuu li a:hover{
+    color: rgb(42, 170, 255);
 }
