@@ -7,6 +7,7 @@
 
 
 body{
+    margin: 0;
     background-color: rgb(170, 199, 223);
 }
 
@@ -34,4 +35,20 @@ body{
 
 #menuu li a:hover{
     color: rgb(42, 170, 255);
+}
+
+#logo{
+    padding-top: 17px;
+    width: 40px;
+    text-align: left;
+    float: left;
+}
+
+#fundo{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    color: white;
+    
 }
