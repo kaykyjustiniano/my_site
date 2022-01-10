@@ -11,19 +11,47 @@
 <body>
     
     <ul id="menuu">  
-        <img id="logo" src="imgs/_logoEmpresa.png">
+        <a href="#">
+            <img id="logo" src="imgs/_logoEmpresa.png">
+        </a>
+
         <li><a href="#">INICIO</a></li>
         <li><a href="#">SOBRE</a></li>
         <li><a href="#">MENU</a></li>
     </ul>
 
-    <img id="fundo" src="imgs/backgound.jpg">
-    <p>olá</p>
+    <form action="#" method="GET">
+        <fieldset class="fildbackground">
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Hic vitae ullam, molestiae fugiat ex, nesciunt natus eveniet incidunt
-        vero explicabo iste optio corrupti. Veniam accusantium asperiores
-        doloremque facere commodi nulla.</p>
+            <fieldset class="usuario">
+                <input id="pessoa" type="text" placeholder="Seu nome"> <br>
+                <input id="pessoa" type="email" placeholder="Seu-email"> <br>
+                <input id="pessoa" type="password" placeholder="Senha"> <br>
+            </fieldset>
+
+            <fieldset class="atributos">
+                <div>
+                    <input id="botões" type="checkbox"> Html <br>
+                    <input id="botões" type="checkbox"> Css <br>
+                    <input id="botões" type="checkbox"> JavaScript <br>
+                    <input id="botões" type="radio" name="homem"> homem
+                    <input id="botões" type="radio" name="homem"> mulher
+                </div>
+            </fieldset>
+
+            <br>
+
+            <div id="enviar">
+                <input id="botão" type="submit" value="ENVIAR">
+                <input id="botão" type="submit" value="ESQUECI A SENHA">
+            </div>
+
+        </fieldset>
+
+
+    </form>
+
+    
 
 </body>
 

@@ -44,11 +44,67 @@ body{
     float: left;
 }
 
-#fundo{
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-    color: white;
-    
+.atributos{
+    margin-top: 12px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+
+.atributos div{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(214, 224, 224);
+}
+
+.atributos div{
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(9, 100, 100);
+}
+
+
+.fildbackground{
+    border: none;
+    padding: 10px;
+    background-color: rgb(152, 178, 182);
+}
+
+.usuario{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(230, 228, 228);
+}
+
+#pessoa{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+#pessoa:hover{
+    background-color: rgb(42, 170, 255);
+    color: rgb(0, 0, 0);
+}
+
+#enviar{
+    text-align: center;
+}
+
+#botão{
+    font-family: 'Montserrat', sans-serif;
+    border: 1px;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(9, 100, 100);
+}
+
+#botão:hover{
+    color: rgb(0, 0, 0);
+    background-image: -moz-linear-gradient(rgb(235, 239, 240),rgb(191, 195, 196));
 }
